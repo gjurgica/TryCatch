@@ -57,5 +57,35 @@ namespace TryCatch
                 }
             }
         }
+        public void AllMovies(List<Movie> movie,List<Cinema> cinema)
+        {
+            Console.WriteLine("Your list is:");
+            foreach (var elem in movie)
+            {
+                Console.WriteLine(elem.Title);
+            }
+            Console.WriteLine("Chose the movie");
+            string movieToPlay = Console.ReadLine();
+            try
+            {
+                foreach (var elem in movie)
+                {
+                    if (movieToPlay.ToLower() == elem.Title.ToLower())
+                    {
+                        cinema[0].MoviePlaying(elem);
+                        break;
+                    }
+                    else
+                    {
+                        throw new Exception("Please enter a movie title from the list");
+                    }
+                }
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }

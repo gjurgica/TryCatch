@@ -1,0 +1,10 @@
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\bin\Debug\TryCatch.exe.config
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\bin\Debug\TryCatch.exe
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\bin\Debug\TryCatch.pdb
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\bin\Debug\Movie.dll
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\bin\Debug\Movie.pdb
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\obj\Debug\TryCatch.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\obj\Debug\TryCatch.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\obj\Debug\TryCatch.csproj.CopyComplete
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\obj\Debug\TryCatch.exe
+C:\Users\Asus\Desktop\c#\TryCatch\TryCatch\obj\Debug\TryCatch.pdb

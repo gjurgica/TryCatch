@@ -1,0 +1,6 @@
+C:\Users\Asus\Desktop\c#\TryCatch\Movie\bin\Debug\Movie.dll
+C:\Users\Asus\Desktop\c#\TryCatch\Movie\bin\Debug\Movie.pdb
+C:\Users\Asus\Desktop\c#\TryCatch\Movie\obj\Debug\CinemaClasses.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\c#\TryCatch\Movie\obj\Debug\CinemaClasses.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\c#\TryCatch\Movie\obj\Debug\Movie.dll
+C:\Users\Asus\Desktop\c#\TryCatch\Movie\obj\Debug\Movie.pdb

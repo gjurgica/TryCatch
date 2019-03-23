@@ -21,6 +21,7 @@ namespace TryCatch
             Milenium.Name = "Milenium";
             Milenium.Halls = new List<int> { 1, 2 };
             Milenium.Movies = MoviesLists.SecondList();
+            List<Cinema> Cinemas = new List<Cinema>() { Cineplex, Milenium };
 
             Console.WriteLine("Choose the Cinema.\nYour choise is:\n1.Cineplex\n2.Milenium");
             string chosenCinema = Console.ReadLine();
@@ -34,32 +35,7 @@ namespace TryCatch
                     {
                         if(allOrGenre == "1")
                         {
-                            Console.WriteLine("Your list is:");
-                            foreach(var movie in Cineplex.Movies)
-                            {
-                                Console.WriteLine(movie.Title);
-                            }
-                            Console.WriteLine("Chose the movie");
-                            string movieToPlay = Console.ReadLine();
-                            try
-                            {
-                                foreach(var movie in Cineplex.Movies)
-                                {
-                                    if(movieToPlay.ToLower() == movie.Title.ToLower())
-                                    {
-                                        Cineplex.MoviePlaying(movie);
-                                        break;
-                                    }
-                                    else
-                                    {
-                                        throw new Exception("Please enter a movie title from the list");
-                                    }
-                                }
-
-                            }catch(Exception e)
-                            {
-                                Console.WriteLine(e.Message);
-                            }
+                            GenreChoise.AllMovies(MoviesLists.FirstList(),Cinemas);
                         }
                         else if(allOrGenre == "2")
                         {
@@ -99,32 +75,7 @@ namespace TryCatch
                     {
                         if(allOrGenre == "1")
                         {
-                            Console.WriteLine("Your list is:");
-                            foreach (var movie in Milenium.Movies)
-                            {
-                                Console.WriteLine(movie.Title);
-                            }
-                            Console.WriteLine("Chose the movie");
-                            string movieToPlay = Console.ReadLine();
-                            try
-                            {
-                                foreach(var movie in Milenium.Movies)
-                                {
-                                    if(movieToPlay.ToLower() == movie.Title.ToLower())
-                                    {
-                                        Milenium.MoviePlaying(movie);
-                                        break;
-                                    }
-                                    else
-                                    {
-                                        throw new Exception("Please enter a movie title from the list");
-                                    }
-                                }
-
-                            }catch(Exception e)
-                            {
-                                Console.WriteLine(e.Message);
-                            }
+                            GenreChoise.AllMovies(MoviesLists.SecondList(), Cinemas);
                         }
                         else if(allOrGenre == "2")
                         {
